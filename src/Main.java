@@ -7,8 +7,7 @@ public class Main {
         int clientOs = 1;
         int clientAndroid = 0;
         int client = 1;
-        if (client == 0 || client == 1) {
-        }
+
         if (client == 1) {
             System.out.println(" Установите версию приложения для iOS по ссылке ");
         }
@@ -23,8 +22,7 @@ public class Main {
         int clietOs = 1;
         int clietAndroid = 0;
         int clien = 1;
-        if (clien == 0 || clien == 1) {
-        }
+
         if (clien == 1) {
 
             if (clientDeviceYear >= 2015) {
@@ -46,7 +44,7 @@ public class Main {
         // задание 3.
         System.out.println(" Задание 3 ");
         int year = 2020;
-        if ((year % 4 == 0 && year % 400 == 0) ^ year % 100 != 0) {
+        if ((year % 4 == 0 && year % 400 == 0) || year % 100 != 0) {
             System.out.println(" Год високосный! ");
         } else {
             System.out.println(" Год не високосный! ");
