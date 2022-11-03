@@ -15,5 +15,7 @@ public class Main {
         if (client == 0) {
             System.out.println(" Установите версию приложения для Android по ссылке ");
         }
+    }
+}
 
 
